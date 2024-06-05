@@ -46,7 +46,6 @@ header h1 {
 header p {
     font-size: 16px;
     line-height: 26px;
-    color: white;
     color: #42D3ff;
 }
 
@@ -100,6 +99,7 @@ fieldset legend {
     color: #a9a7af;
 }
 
+
 .input-wrapper label span:hover{
     color: #6c6a71;
 }
@@ -129,4 +129,10 @@ fieldset legend {
 
 .col-3 > div:nth-child(1) {
     width: 100%;
+}
+
+
+#name{
+    display: flex;
+    display: inline-block;
 }
